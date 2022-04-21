@@ -33,19 +33,19 @@ quiz.prototype.guess = function (answer) {
 let q1 = new question(
   "what is the best programming language?",
   ["C#", "javascript", "python", "asp.net"],
-  "javascipt"
+  "javascript"
 );
 
 let q2 = new question(
   "what is the most popular programming language?",
   ["C#", "visual basic", "node.js", "javascript"],
-  "javascipt"
+  "javascript"
 );
 
 let q3 = new question(
   "what is the best modern programming language?",
   ["C#", "javascript", "python", "javascript"],
-  "javascipt"
+  "javascript"
 );
 
 let questions = [q1, q2, q3];
